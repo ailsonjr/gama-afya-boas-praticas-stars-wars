@@ -60,6 +60,18 @@ span {
   align-items: center;
   font-family: $fontFamilyDefault;
 
+  & .social {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+
+    & img {
+      height: 100px;
+      width: auto;
+      transition: 0.3s;
+    }
+  }
+
   & img {
     height: 190px;
     width: auto;
@@ -94,7 +106,7 @@ span {
     transition: 0.3s;
 
     &:hover {
-      transform: scale(1.2)
+      transform: scale(1.2);
     }
   }
 }
